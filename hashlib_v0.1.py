@@ -6,10 +6,10 @@ import requests
 import os
 
 url = "https://www.virustotal.com/api/v3/files/{}"
-api_key = "e096491a2920f219e960abe5732c27dd3e0b7bcd7aaba9de262ebd70f4767f96"
+api_key = "*"
 
 hybrid_url = "https://hybrid-analysis.com/api/v2/search/hash"
-hybrid_api_key = "xxza5fzg4f039b2fj4kaam9nadd0a18f0cwkka4t9f747cd6wgkyb32fbd57040c"
+hybrid_api_key = "*"
 
 all_engines = ["Kaspersky", "AhnLab-V3", "FireEye", "ALYac", "CrowdStrike"]
 files_to_scan = []
